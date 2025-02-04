@@ -27,7 +27,7 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - major_version: 41
+          - major_version: 3.5
             is_latest: true
             is_stable: true
     
