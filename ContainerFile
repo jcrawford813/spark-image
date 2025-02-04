@@ -4,7 +4,7 @@ USER root
 
 RUN set -ex; \
     apt-get update; \
-    apt-get upgrade; \
+    apt-get upgrade --yes; \
     rm -rf /var/lib/apt/lists/*; \
     pip install pandas python pyarrow numpy
 
